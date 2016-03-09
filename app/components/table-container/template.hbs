@@ -1,0 +1,8 @@
+{{#each rows as |row|}}
+	{{!-- {{table-row row=row}} --}}
+	{{#each row.cells as |cell|}}
+		{{!-- {{table-cell cell=cell}} --}}
+		<div>{{cell.name}}</div>
+	{{/each}}
+
+{{/each}}
